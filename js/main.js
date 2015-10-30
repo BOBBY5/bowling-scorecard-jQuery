@@ -1,4 +1,4 @@
-// Create Modal Object 
+//modal module;
 var modal = (function(){
 				var 
 				method = {},
@@ -62,10 +62,9 @@ var modal = (function(){
 					method.close();
 				});
 
-				return method;
-			}());
+				return method;}());
 
-// Wait until the DOM has loaded before querying the document
+// Wait until the DOM has loaded before querying;
 $(document).ready(function(){
 
 	$.get('templates/scorecard.html', function(data){
@@ -86,5 +85,4 @@ $(document).ready(function(){
 			$(this).css( 'cursor', 'pointer' );
 			modal.close();
 		};
-	});
-});
+	});});

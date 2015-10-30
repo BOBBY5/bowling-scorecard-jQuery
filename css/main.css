@@ -1,3 +1,8 @@
+@import url("../templates/scorecard.css");
+
+html, body{
+
+}
 * {
 	margin:0; 
 	padding:0;
@@ -38,3 +43,50 @@
 	top:-7px;
 	right:-7px;
 }
+
+/* scorecard-btn styles */
+div.btn-container{
+ position: relative;
+ background: white;
+ height: 100px;
+ width: 20%;
+ margin: 0 auto;
+ padding: 20px;
+ resize: both;
+ overflow: visible;
+}
+
+div.btn-container a{
+background: #000000;
+color: #ffffff;
+text-align: center;
+text-decoration: none;
+width: 100%;
+height: auto;
+margin: -70px 0 0 -120px;
+position: absolute;
+top: 50%;
+left: 50%;
+padding: 20px;
+/* border radius */
+-webkit-border-radius: 0 0 10px 10px;/*Safari, Chrome*/
+-moz-border-radius: 0 0 10px 10px;/*Firefox*/
+border-radius: 0 0 10px 10px;
+/* box shadow */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=20, Direction=95, Color=#000000)";/*IE 8*/
+-moz-box-shadow: 1px 11px 20px rgba(0,0,0,0.1);/*FF 3.5+*/
+-webkit-box-shadow: 1px 11px 20px rgba(0,0,0,0.1);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 1px 11px 20px rgba(0,0,0,0.1);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=20, Direction=135, Color=#000000); /*IE 5.5-7*/
+
+
+
+}
+
+
+
+
+
+
+
+
